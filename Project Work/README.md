@@ -9,10 +9,10 @@ This project implements a full feature–engineering and modeling workflow based
 
 ---
 
-## 📌 **Reference to the Kaggle Challenge**
+## **Reference to the Kaggle Challenge**
 The official competition page is available here:
 
-👉 *Kaggle: NeurIPS Open Polymer Prediction 2025*  
+ *Kaggle: NeurIPS Open Polymer Prediction 2025*  
 https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025
 
 It provides the dataset, the evaluation metrics, and the competition rules.
@@ -20,7 +20,7 @@ It provides the dataset, the evaluation metrics, and the competition rules.
 
 ---
 
-## 🚀 **Project Overview**
+## **Project Overview**
 
 This repository includes:
 
@@ -55,15 +55,4 @@ For each property (Tg, FFV, Tc, Density, Rg):
 
 ### **5. Output**
 - A `predictions.csv` file containing the predictions for all targets
-- A serialized dictionary of trained models, scalers, feature lists, and OOF scores (optional)
-
-
----
-
-## 📦 **Prerequisites**
-
-Before running the project, ensure you have the following installed:
-
-### **Python Version**
-```text
-Python 3.10 or later
+- A serialized dictionary of trained models, scalers, feature lists, and OOF scores
