@@ -1,5 +1,3 @@
-# Teodorani-NeurIPS---Open-Polymer-Prediction-2025
-Project Work in Machine Learning and Data Mining
 # Open Polymer Property Prediction — NeurIPS 2025
 
 ## Project Overview
@@ -24,13 +22,11 @@ The objective is to predict key physicochemical properties of polymers from thei
 
 3. **Data cleaning & preprocessing** — handle missing values, clip extreme values, and ensure train/test alignment using `data_cleaning`. Features are scaled before modeling.
 
-4. **Feature selection (optional)** — remove low-variance and highly correlated features, then select top features based on LightGBM importance via `feature_selection_pipeline`.
+4. **Feature selection** — remove low-variance and highly correlated features, then select top features based on LightGBM importance via `feature_selection_pipeline`.
 
 5. **Modeling** — train per-target LightGBM regressors with K-Fold cross-validation using `train_lgb_per_target`. Out-of-fold predictions are stored for validation
-  
-7. **Ensembling & postprocessing (optional)** — combine outputs from multiple models or folds to improve robustness and reduce variance in predictions.
-  
-9. **Submission generation** — produce `submission.csv` containing predictions for all target properties, ready for Kaggle submission.
+6.  **Ensembling & postprocessing** — combine outputs from multiple models or folds to improve robustness and reduce variance in predictions.
+7.  **Submission generation** — produce `submission.csv` containing predictions for all target properties, ready for Kaggle submission.
 
 ## Results
 
