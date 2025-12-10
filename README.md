@@ -26,11 +26,11 @@ The objective is to predict key physicochemical properties of polymers from thei
 
 4. **Feature selection (optional)** — remove low-variance and highly correlated features, then select top features based on LightGBM importance via `feature_selection_pipeline`.
 
-5. **Modeling** — train per-target LightGBM regressors with K-Fold cross-validation using `train_lgb_per_target`. Out-of-fold predictions are stored for validation, and test predictions are averaged across folds.
-
-6. **Ensembling & postprocessing (optional)** — combine outputs from multiple models or folds to improve robustness and reduce variance in predictions.
-
-7. **Submission generation** — produce `submission.csv` containing predictions for all target properties, ready for Kaggle submission.
+5. **Modeling** — train per-target LightGBM regressors with K-Fold cross-validation using `train_lgb_per_target`. Out-of-fold predictions are stored for validation
+  
+7. **Ensembling & postprocessing (optional)** — combine outputs from multiple models or folds to improve robustness and reduce variance in predictions.
+  
+9. **Submission generation** — produce `submission.csv` containing predictions for all target properties, ready for Kaggle submission.
 
 ## Results
 
