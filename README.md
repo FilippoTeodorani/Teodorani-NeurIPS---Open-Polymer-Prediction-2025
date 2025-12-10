@@ -39,5 +39,5 @@ For each target property, the mean absolute error (MAE) obtained during cross-va
 - **Density** — 0.108  
 - **Rg** — 3.904
 
-> ⚠ Note: The competition had a **hidden test set**. The score reported on that set, after submitting the notebook, was **0.11318** (weighted MAE as defined by the competition).  
-> This value reflects the final performance of the model on unseen data.
+Note: The competition had a **hidden test set**. The score reported on that set, after submitting the notebook, was **0.11318** (weighted MAE as defined by the competition).  
+This value reflects the final performance of the model on unseen data.
