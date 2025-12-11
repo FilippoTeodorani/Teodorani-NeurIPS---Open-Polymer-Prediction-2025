@@ -26,7 +26,6 @@ The objective is to predict key physicochemical properties of polymers from thei
 
 5. **Modeling** — train per-target LightGBM regressors with K-Fold cross-validation using `train_lgb_per_target`. Out-of-fold predictions are stored for validation
 6.  **Ensembling & postprocessing** — combine outputs from multiple models or folds to improve robustness and reduce variance in predictions.
-7.  **Submission generation** — produce `submission.csv` containing predictions for all target properties, ready for Kaggle submission.
 
 ## Results
 
