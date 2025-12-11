@@ -52,4 +52,5 @@ For each property (Tg, FFV, Tc, Density, Rg):
 - Test predictions averaged across folds
 
 ### **5. Output**
-- A `predictions.csv` file containing the predictions for all targets
+- A `predictions.csv` file containing the predictions for all targets.
+Note: the predictions file was created following the kaggle competitions guidilines, in order to compute the hidden test score. In this version of the notebook it is not created
