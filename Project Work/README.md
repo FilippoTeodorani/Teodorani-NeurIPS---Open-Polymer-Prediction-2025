@@ -32,12 +32,12 @@ This repository includes:
 ### **2. Data Cleaning Pipeline**
 - Replacement of ±∞ with NaN  
 - Removal of columns with excessive missing values  
-- Median imputation + KNN imputation  
+- KNN imputation  
 - Clipping of extreme outliers  
 - Standardization per target
 
 ### **3. Global Feature Selection**
-Feature selection is performed **only on Tg**, which has the most complete labels:
+Feature selection is performed **only on Tg**:
 - Removal of constant and quasi-constant features  
 - Correlation filtering  
 - LightGBM importance ranking  
@@ -55,4 +55,3 @@ For each property (Tg, FFV, Tc, Density, Rg):
 
 ### **5. Output**
 - A `predictions.csv` file containing the predictions for all targets
-- A serialized dictionary of trained models, scalers, feature lists, and OOF scores
