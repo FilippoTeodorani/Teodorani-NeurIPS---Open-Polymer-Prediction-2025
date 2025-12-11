@@ -27,7 +27,6 @@ This repository includes:
 ### **1. Descriptor and Feature Generation**
 - RDKit molecular descriptors (hundreds of physico-chemical properties)
 - Morgan fingerprints (1024 bits)
-- Optional numerical metadata features if present in the dataset
 
 ### **2. Data Cleaning Pipeline**
 - Replacement of ±∞ with NaN  
@@ -37,7 +36,6 @@ This repository includes:
 - Standardization per target
 
 ### **3. Global Feature Selection**
-Feature selection is performed **only on Tg**:
 - Removal of constant and quasi-constant features  
 - Correlation filtering  
 - LightGBM importance ranking  
